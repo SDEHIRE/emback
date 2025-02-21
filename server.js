@@ -58,13 +58,13 @@ app.post('/get-emotion-report', async (req, res) => {
             dominant_emotion: '',
             total_confidence: 0,
             emotion_scores: {
-                Angry: 0,
-                Disgust: 0,
-                Fear: 0,
-                Happy: 0,
-                Sad: 0,
-                Surprise: 0,
-                Neutral: 0,
+                angry: 0,
+                disgust: 0,
+                fear: 0,
+                happy: 0,
+                sad: 0,
+                surprise: 0,
+                neutral: 0,
             },
         };
 
